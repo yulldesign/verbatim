@@ -507,14 +507,16 @@ The global option `--notes-json <file>` runs the read commands on the Notion cac
 
 ## 12. Privacy
 
-Interviews contain personal data. Verbatim sends them nowhere except where you work: your disk, and Claude
-during the session.
+Interviews contain personal data. Verbatim keeps them where you work: your disk, and Claude during the
+session. It sends them nowhere else on its own.
 
-Two things do leave the machine, both because you asked for them. If you choose the **Notion** backend, your
-notes are written to your own Notion workspace, through the connector you authorized in Claude. And the page
-produced by `graph-html` loads the d3 library from `cdnjs.cloudflare.com` when you open it in a browser: that
-is a library download, nothing of your research is sent with it. The Python script itself opens no network
-connection, ever. For a study versioned with git, add to its `.gitignore`:
+Two things do leave the machine, and only because you asked for them. If you choose the **Notion** backend,
+your notes are written to your own Notion workspace, through the connector you authorized in Claude - that
+one does carry your research. And the page produced by `graph-html` loads the d3 library from
+`cdnjs.cloudflare.com` when you open it in a browser: that is a library download, nothing of your research
+travels with it. The Python script itself never opens a network connection.
+
+For a study versioned with git, add to its `.gitignore`:
 
 ```gitignore
 .verbatim/
@@ -575,6 +577,7 @@ verbatim/                        repository root = the plugin, and its marketpla
 │   └── marketplace.json         marketplace manifest (source: "./")
 ├── skills/                      14 commands + vault (model, references, script)
 ├── agents/                      6 subagents
+├── README.md                    this documentation
 ├── PRIVACY.md                   privacy policy
 ├── examples/
 │   ├── transcripts/             fictional interviews, useful as test cases
