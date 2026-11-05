@@ -73,8 +73,6 @@ Three guarantees hold across every workflow:
 - **Claude Code** with plugin support (desktop app, CLI or IDE extension). Tested with version 2.1.300.
 - **Python 3.9 or later**, available as `python` or `python3`. The script uses only the standard library:
   nothing to install.
-- **Node.js** (the runtime Claude Code itself runs on) for the session-start hook only. If `node` is not on the
-  PATH, the hook is skipped silently and every command still works.
 - **Optional**: the **Notion** connector, to store the research in Notion. Add it in Claude with `/mcp` or in
   the app's connectors.
 - **Optional**: [Obsidian](https://obsidian.md), to browse the Markdown vault, its graph and the affinity map.
@@ -357,10 +355,6 @@ parallel. They only propose; only the main conversation applies, after your appr
 plausible. It counts, checks links and frontmatter, finds duplicates by similarity, groups tags, applies staging
 jobs, verifies quotes and exports. It runs instantly and uses no tokens.
 
-**Hook** (`hooks/hooks.json`, running `hooks/session-start.js`): when a session starts, it
-reminds Claude of the project rules (nothing without review, exact quotes) and of the state of the vault. It stays
-silent outside a Verbatim project and never fails a session.
-
 **Review.** A staging *job* is a folder:
 
 ```
@@ -506,7 +500,7 @@ python "<plugin>/skills/vault/scripts/verbatim.py" --help
 | `canvas-check` / `canvas-html` / `canvas-obsidian` | Validate and render the affinity map |
 | `export-csv` / `graph-html` | Exports |
 | `notion-cache <rows.json …>` | Notion backend: turns a database export into the local cache |
-| `session-context` | Text injected by the session-start hook |
+| `session-context` | The project rules and a one-line status, on demand |
 | `slug "<title>"` | File name for a note |
 
 The global option `--notes-json <file>` runs the read commands on the Notion cache.
@@ -572,11 +566,9 @@ transcript. Disable the plugin (`claude plugin disable verbatim`) in projects th
 verbatim/                        repository root = the plugin, and its marketplace
 ├── .claude-plugin/
 │   ├── plugin.json              plugin manifest
-│   ├── marketplace.json         marketplace manifest (source: "./")
-│   └── icon.png                 512x512 listing icon
+│   └── marketplace.json         marketplace manifest (source: "./")
 ├── skills/                      14 commands + vault (model, references, script)
 ├── agents/                      6 subagents
-├── hooks/                       rules at session start (hooks.json + session-start.js)
 ├── PRIVACY.md                   privacy policy
 ├── examples/
 │   ├── transcripts/             fictional interviews, useful as test cases

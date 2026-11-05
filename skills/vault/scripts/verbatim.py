@@ -1282,7 +1282,7 @@ def cmd_canvas_obsidian(ctx: Ctx, args):
 
 
 def cmd_session_context(ctx: Ctx, args):
-    """Always-on rules + one-line status for the SessionStart hook. Silent outside a Verbatim project."""
+    """The project rules + a one-line status. Silent outside a Verbatim project."""
     if not ctx.cfg_path:
         return
     backend = ctx.config.get("backend", "markdown")
@@ -1318,7 +1318,7 @@ def main(argv=None):
     sp = ap.add_subparsers(dest="cmd", required=True)
 
     p = sp.add_parser("init", help="create the vault folder structure"); p.add_argument("path", nargs="?"); p.set_defaults(fn=cmd_init)
-    p = sp.add_parser("session-context", help="rules + status for the SessionStart hook (silent outside a project)")
+    p = sp.add_parser("session-context", help="the project rules + status (silent outside a project)")
     p.set_defaults(fn=cmd_session_context)
     p = sp.add_parser("slug", help="slugify a title"); p.add_argument("text", nargs="+"); p.set_defaults(fn=cmd_slug)
     p = sp.add_parser("scan", help="list notes as JSON")

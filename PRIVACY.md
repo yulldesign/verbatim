@@ -2,8 +2,8 @@
 
 Last updated: 2026-11-05
 
-Verbatim is a Claude Code plugin made of skills, agents, reference files, a local Python script and a
-session-start hook. It has no server, no account, no telemetry and no analytics. The author receives no data
+Verbatim is a Claude Code plugin made of skills, agents, reference files and a local Python script.
+It has no server, no account, no telemetry and no analytics. The author receives no data
 from people who use it.
 
 ## What the plugin reads
@@ -19,8 +19,7 @@ from people who use it.
   (`cache/`), health reports (`health/`) and deleted notes (`trash/`).
 
 Claude reads these files during your Claude Code session, under the terms that apply to your use of Claude.
-The session-start hook runs the local script and prints a short status line into the session; it sends
-nothing anywhere.
+The plugin runs no background process and opens no network connection of its own.
 
 ## What the plugin stores, and where
 
