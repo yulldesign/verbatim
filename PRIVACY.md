@@ -42,7 +42,12 @@ remains, including in links.
 
 Nothing, apart from the Notion backend described above, which you choose and authorize yourself. The plugin
 declares no connector of its own and calls no other external service. There is no network access in the
-Python script.
+Python script: it never opens a connection.
+
+One file it writes does reach the network, in your browser rather than from the script. The interactive graph
+produced by `graph-html` carries a `<script src>` tag for the d3 library on `cdnjs.cloudflare.com`, fetched
+when you open that page. It is a library download; none of your notes, quotes or participant names are sent
+with it. Open the file offline and the graph simply does not draw.
 
 ## Retention and deletion
 

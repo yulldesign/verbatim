@@ -508,7 +508,13 @@ The global option `--notes-json <file>` runs the read commands on the Notion cac
 ## 12. Privacy
 
 Interviews contain personal data. Verbatim sends them nowhere except where you work: your disk, and Claude
-during the session. For a study versioned with git, add to its `.gitignore`:
+during the session.
+
+Two things do leave the machine, both because you asked for them. If you choose the **Notion** backend, your
+notes are written to your own Notion workspace, through the connector you authorized in Claude. And the page
+produced by `graph-html` loads the d3 library from `cdnjs.cloudflare.com` when you open it in a browser: that
+is a library download, nothing of your research is sent with it. The Python script itself opens no network
+connection, ever. For a study versioned with git, add to its `.gitignore`:
 
 ```gitignore
 .verbatim/
