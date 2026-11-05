@@ -1,0 +1,18 @@
+# Verbatim working state in any project: staging history, trash, caches
+**/.verbatim/staging/
+**/.verbatim/trash/
+**/.verbatim/cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude Code: nothing under .claude/ is part of the plugin and none of it is
+# versioned - local settings, dev tooling and the maintainer's own CLAUDE.md.
+.claude/
+
+# The demo project under examples/ holds fictional data only and is meant to be committed.
+# For real research projects, see the .gitignore advice in README.md (section 12).
+
+# Obsidian per-user state (open the vault in Obsidian freely; nothing of this is shared)
+**/.obsidian/

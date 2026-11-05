@@ -1,0 +1,28 @@
+{
+  "backend": "markdown",
+  "vault_path": "vault",
+  "output_language": "en",
+  "skip_review": false,
+  "stale_days": 30,
+  "taxonomy": [
+    "pain-point",
+    "feature-request",
+    "workaround",
+    "onboarding",
+    "pricing",
+    "performance",
+    "ux",
+    "integration",
+    "trust",
+    "churn-risk",
+    "delight",
+    "job-to-be-done",
+    "process",
+    "expectation-gap"
+  ],
+  "notion": {
+    "notes_data_source": "",
+    "projects_data_source": "",
+    "parent_page": ""
+  }
+}

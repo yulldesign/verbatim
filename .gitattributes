@@ -1,0 +1,4 @@
+# Keep LF line endings in the repository and in every checkout (scripts, hooks, Markdown).
+* text=auto eol=lf
+*.png binary
+*.zip binary

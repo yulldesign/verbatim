@@ -1,0 +1,24 @@
+{
+  "name": "verbatim",
+  "displayName": "Verbatim",
+  "version": "0.1.2",
+  "description": "User research with Claude: turn interview transcripts into a cited, verbatim-checked knowledge base (insights, themes, health check, affinity map, query, readouts) stored as local Markdown or in Notion.",
+  "author": {
+    "name": "Stéphane Giraud"
+  },
+  "homepage": "https://github.com/yulldesign/verbatim",
+  "repository": "https://github.com/yulldesign/verbatim",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://github.com/yulldesign/verbatim/blob/main/PRIVACY.md",
+  "keywords": [
+    "user-research",
+    "ux-research",
+    "interviews",
+    "transcripts",
+    "insights",
+    "synthesis",
+    "affinity-mapping",
+    "obsidian",
+    "notion"
+  ]
+}

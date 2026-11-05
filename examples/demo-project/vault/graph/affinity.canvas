@@ -1,0 +1,295 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "Setup hinges on in-house tech skills",
+      "x": 0,
+      "y": 0,
+      "width": 380,
+      "height": 740,
+      "color": "5"
+    },
+    {
+      "id": "n0-0",
+      "type": "file",
+      "file": "insights/connecting-the-tms-took-three-weeks-during-onboarding.md",
+      "x": 30,
+      "y": 70,
+      "width": 320,
+      "height": 140,
+      "color": "5"
+    },
+    {
+      "id": "n0-1",
+      "type": "file",
+      "file": "insights/non-technical-teams-depend-on-support-callbacks-to-complete.md",
+      "x": 30,
+      "y": 230,
+      "width": 320,
+      "height": 140,
+      "color": "5"
+    },
+    {
+      "id": "n0-2",
+      "type": "file",
+      "file": "insights/setup-is-expected-to-be-harder-for-companies-without-a.md",
+      "x": 30,
+      "y": 390,
+      "width": 320,
+      "height": 140,
+      "color": "5"
+    },
+    {
+      "id": "n0-3",
+      "type": "file",
+      "file": "insights/teams-with-in-house-developers-set-up-the-integration-in-one.md",
+      "x": 30,
+      "y": 550,
+      "width": 320,
+      "height": 140,
+      "color": "5"
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Pulling data out through fragile workarounds",
+      "x": 440,
+      "y": 0,
+      "width": 380,
+      "height": 1060,
+      "color": "3"
+    },
+    {
+      "id": "n1-0",
+      "type": "file",
+      "file": "insights/a-homemade-nightly-script-works-around-the-missing-export.md",
+      "x": 470,
+      "y": 70,
+      "width": 320,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "n1-1",
+      "type": "file",
+      "file": "insights/a-real-api-or-scheduled-export-is-the-top-time-saving.md",
+      "x": 470,
+      "y": 230,
+      "width": 320,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "n1-2",
+      "type": "file",
+      "file": "insights/data-is-exported-to-csv-and-moved-into-the-warehouse-to.md",
+      "x": 470,
+      "y": 390,
+      "width": 320,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "n1-3",
+      "type": "file",
+      "file": "insights/the-automated-export-depends-on-one-analysts-personal-login.md",
+      "x": 470,
+      "y": 550,
+      "width": 320,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "n1-4",
+      "type": "file",
+      "file": "insights/the-export-script-breaks-whenever-the-interface-changes.md",
+      "x": 470,
+      "y": 710,
+      "width": 320,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "n1-5",
+      "type": "file",
+      "file": "insights/the-weekly-management-report-is-rebuilt-by-hand-in-excel.md",
+      "x": 470,
+      "y": 870,
+      "width": 320,
+      "height": 140,
+      "color": "3"
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Per-user pricing caps sharing",
+      "x": 880,
+      "y": 0,
+      "width": 380,
+      "height": 740,
+      "color": "1"
+    },
+    {
+      "id": "n2-0",
+      "type": "file",
+      "file": "insights/guest-accounts-billed-as-paying-users-limit-sharing-with.md",
+      "x": 910,
+      "y": 70,
+      "width": 320,
+      "height": 140,
+      "color": "1"
+    },
+    {
+      "id": "n2-1",
+      "type": "file",
+      "file": "insights/per-user-pricing-charges-for-people-who-only-view.md",
+      "x": 910,
+      "y": 230,
+      "width": 320,
+      "height": 140,
+      "color": "1"
+    },
+    {
+      "id": "n2-2",
+      "type": "file",
+      "file": "insights/stakeholders-without-an-account-can-only-be-shared.md",
+      "x": 910,
+      "y": 390,
+      "width": 320,
+      "height": 140,
+      "color": "1"
+    },
+    {
+      "id": "n2-3",
+      "type": "file",
+      "file": "insights/dashboard-access-is-what-customers-value-most.md",
+      "x": 910,
+      "y": 550,
+      "width": 320,
+      "height": 140,
+      "color": "1"
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Defending numbers before management",
+      "x": 1320,
+      "y": 0,
+      "width": 380,
+      "height": 740,
+      "color": "6"
+    },
+    {
+      "id": "n3-0",
+      "type": "file",
+      "file": "insights/after-a-wrong-figure-reached-management-numbers-are-no.md",
+      "x": 1350,
+      "y": 70,
+      "width": 320,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "n3-1",
+      "type": "file",
+      "file": "insights/ops-leads-need-to-be-able-to-explain-every-number-to.md",
+      "x": 1350,
+      "y": 230,
+      "width": 320,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "n3-2",
+      "type": "file",
+      "file": "insights/pulse-numbers-do-not-always-match-the-carriers-data.md",
+      "x": 1350,
+      "y": 390,
+      "width": 320,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "n3-3",
+      "type": "file",
+      "file": "insights/the-numbers-are-trusted-as-accurate.md",
+      "x": 1350,
+      "y": 550,
+      "width": 320,
+      "height": 140,
+      "color": "6"
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "Asking for context behind metrics",
+      "x": 1760,
+      "y": 0,
+      "width": 380,
+      "height": 580,
+      "color": "5"
+    },
+    {
+      "id": "n4-0",
+      "type": "file",
+      "file": "insights/unclear-metric-definitions-lead-each-team-to-interpret-them.md",
+      "x": 1790,
+      "y": 70,
+      "width": 320,
+      "height": 140,
+      "color": "5"
+    },
+    {
+      "id": "n4-1",
+      "type": "file",
+      "file": "insights/users-want-a-glossary-of-metrics-inside-the-tool.md",
+      "x": 1790,
+      "y": 230,
+      "width": 320,
+      "height": 140,
+      "color": "5"
+    },
+    {
+      "id": "n4-2",
+      "type": "file",
+      "file": "insights/users-want-to-see-where-each-number-comes-from-and-when-data.md",
+      "x": 1790,
+      "y": 390,
+      "width": 320,
+      "height": 140,
+      "color": "5"
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "Daily value once data flows",
+      "x": 2200,
+      "y": 0,
+      "width": 380,
+      "height": 420,
+      "color": "4"
+    },
+    {
+      "id": "n5-0",
+      "type": "file",
+      "file": "insights/dashboards-are-perceived-as-clear-once-setup-is-done.md",
+      "x": 2230,
+      "y": 70,
+      "width": 320,
+      "height": 140,
+      "color": "4"
+    },
+    {
+      "id": "n5-1",
+      "type": "file",
+      "file": "insights/the-live-delivery-map-is-opened-daily-and-replaces-calling.md",
+      "x": 2230,
+      "y": 230,
+      "width": 320,
+      "height": 140,
+      "color": "4"
+    }
+  ],
+  "edges": []
+}

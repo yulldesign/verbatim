@@ -1,0 +1,24 @@
+{
+  "name": "verbatim",
+  "owner": {
+    "name": "yulldesign"
+  },
+  "description": "Verbatim: user research with Claude Code.",
+  "plugins": [
+    {
+      "name": "verbatim",
+      "source": "./",
+      "description": "Turn interview transcripts into a cited, verbatim-checked research knowledge base (Markdown or Notion).",
+      "version": "0.1.2",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "user-research",
+        "ux-research",
+        "interviews",
+        "insights",
+        "synthesis"
+      ]
+    }
+  ]
+}

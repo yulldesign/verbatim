@@ -1,0 +1,71 @@
+{
+  "title": "Affinity map - whole vault",
+  "generated": "2026-11-04",
+  "clusters": [
+    {
+      "label": "Setup hinges on in-house tech skills",
+      "color": "blue",
+      "rationale": "Onboarding speed is decided by whether the customer has developers to connect the integration: one afternoon with them, weeks and support callbacks without.",
+      "insights": [
+        "insights/connecting-the-tms-took-three-weeks-during-onboarding.md",
+        "insights/non-technical-teams-depend-on-support-callbacks-to-complete.md",
+        "insights/setup-is-expected-to-be-harder-for-companies-without-a.md",
+        "insights/teams-with-in-house-developers-set-up-the-integration-in-one.md"
+      ]
+    },
+    {
+      "label": "Pulling data out through fragile workarounds",
+      "color": "amber",
+      "rationale": "With no API, users get data out of Pulse via CSV exports, scripts and manual rebuilds that are costly, brittle and person-dependent.",
+      "insights": [
+        "insights/a-homemade-nightly-script-works-around-the-missing-export.md",
+        "insights/a-real-api-or-scheduled-export-is-the-top-time-saving.md",
+        "insights/data-is-exported-to-csv-and-moved-into-the-warehouse-to.md",
+        "insights/the-automated-export-depends-on-one-analysts-personal-login.md",
+        "insights/the-export-script-breaks-whenever-the-interface-changes.md",
+        "insights/the-weekly-management-report-is-rebuilt-by-hand-in-excel.md"
+      ]
+    },
+    {
+      "label": "Per-user pricing caps sharing",
+      "color": "rose",
+      "rationale": "Charging every viewer or guest as a paying user pushes customers to limit access, even though shared dashboards are what their own audiences value most.",
+      "insights": [
+        "insights/guest-accounts-billed-as-paying-users-limit-sharing-with.md",
+        "insights/per-user-pricing-charges-for-people-who-only-view.md",
+        "insights/stakeholders-without-an-account-can-only-be-shared.md",
+        "insights/dashboard-access-is-what-customers-value-most.md"
+      ]
+    },
+    {
+      "label": "Defending numbers before management",
+      "color": "violet",
+      "rationale": "Whether figures are trusted depends on whether the user can verify and justify them to leadership, from cross-checking after an incident to never seeing a discrepancy.",
+      "insights": [
+        "insights/after-a-wrong-figure-reached-management-numbers-are-no.md",
+        "insights/ops-leads-need-to-be-able-to-explain-every-number-to.md",
+        "insights/pulse-numbers-do-not-always-match-the-carriers-data.md",
+        "insights/the-numbers-are-trusted-as-accurate.md"
+      ]
+    },
+    {
+      "label": "Asking for context behind metrics",
+      "color": "teal",
+      "rationale": "Users want definitions and provenance attached to each metric so teams read the same number the same way.",
+      "insights": [
+        "insights/unclear-metric-definitions-lead-each-team-to-interpret-them.md",
+        "insights/users-want-a-glossary-of-metrics-inside-the-tool.md",
+        "insights/users-want-to-see-where-each-number-comes-from-and-when-data.md"
+      ]
+    },
+    {
+      "label": "Daily value once data flows",
+      "color": "green",
+      "rationale": "Once integration works, the dashboards and live map become clear, everyday tools that replace older routines.",
+      "insights": [
+        "insights/dashboards-are-perceived-as-clear-once-setup-is-done.md",
+        "insights/the-live-delivery-map-is-opened-daily-and-replaces-calling.md"
+      ]
+    }
+  ]
+}
