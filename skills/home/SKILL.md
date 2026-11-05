@@ -52,7 +52,6 @@ health older than two weeks or many new insights -> Health Check; empty vault ->
 | scope a subset of the research (a study, a feature, a segment) | `verbatim:projects` |
 | see the knowledge graph, rebuild the index, link notes | `verbatim:graph` |
 | export to CSV, HTML, a readout document | `verbatim:export` |
-| create or improve an Verbatim skill | `skill-creator` |
 
 When the request maps clearly to one skill, go straight there without showing the dashboard.
 

@@ -592,9 +592,8 @@ claude plugin validate .
 claude --plugin-dir .
 ```
 
-In the session, `/reload-plugins` reloads the plugin after a change. To create or improve a skill, `/skill-creator`
-is available in this repository: it generates test cases, compares runs with and without the skill, and tunes the
-description. The transcripts in `examples/transcripts/` make good test cases for `verbatim:ingest`.
+In the session, `/reload-plugins` reloads the plugin after a change. The transcripts in `examples/transcripts/`
+make good test cases for `verbatim:ingest`.
 
 Design rules to keep:
 
@@ -606,6 +605,3 @@ Design rules to keep:
 ## License
 
 Verbatim is released under the **MIT** license: see [LICENSE](LICENSE).
-
-Exception: `.claude/skills/skill-creator/` is Anthropic's *skill-creator* skill, included as a development tool for
-this repository. It keeps its own license (Apache 2.0, see its `LICENSE.txt`) and is not shipped with the plugin.
